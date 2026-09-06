@@ -1,5 +1,5 @@
 {
-  "name": "SeedPulse AI - Seed Supply Chain Intelligence",
+  "name": "Seed Innovation AI - Seed Supply Chain Intelligence",
   "description": "Enterprise AI operating system and autonomous copilot for agricultural seed supply chains, demand forecasting, inventory optimization, and production orchestration.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

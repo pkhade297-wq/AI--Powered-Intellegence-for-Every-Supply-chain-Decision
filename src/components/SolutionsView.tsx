@@ -75,7 +75,7 @@ export const SolutionsView: React.FC<SolutionsViewProps> = ({ onNavigate, onOpen
             Solutions Tailored to the Specific Biology of Your Crops
           </h1>
           <p className="text-base sm:text-lg text-zinc-600 max-w-3xl mx-auto">
-            A single supply chain algorithm cannot solve maize and brassica alike. SeedPulse provides crop-specific biological kinetics, market dynamics, and regulatory rules.
+            A single supply chain algorithm cannot solve maize and brassica alike. Seed Innovation AI provides crop-specific biological kinetics, market dynamics, and regulatory rules.
           </p>
         </div>
       </div>

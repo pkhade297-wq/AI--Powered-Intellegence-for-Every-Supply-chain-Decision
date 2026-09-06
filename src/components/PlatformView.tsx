@@ -233,7 +233,7 @@ export const PlatformView: React.FC<PlatformViewProps> = ({
             ))}
           </div>
 
-          {/* Traditional vs SeedPulse AI Comparison Table */}
+          {/* Traditional vs Seed Innovation AI Comparison Table */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {/* Traditional */}
             <div className="p-6 rounded-2xl bg-zinc-50 border border-zinc-200 space-y-4">
@@ -263,11 +263,11 @@ export const PlatformView: React.FC<PlatformViewProps> = ({
               </ul>
             </div>
 
-            {/* SeedPulse AI */}
+            {/* Seed Innovation AI */}
             <div className="p-6 rounded-2xl bg-[#00120a] border border-[#006c49] text-white shadow-xl space-y-4">
               <div className="flex items-center justify-between pb-3 border-b border-[#0a291e]">
                 <span className="text-xs font-mono uppercase tracking-wider font-bold text-[#6cf8bb]">
-                  SeedPulse AI Synchronized Core
+                  Seed Innovation AI Synchronized Core
                 </span>
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-[#6cf8bb] font-bold">
                   AUTONOMOUS
@@ -392,7 +392,7 @@ export const PlatformView: React.FC<PlatformViewProps> = ({
               </h2>
 
               <p className="text-sm text-zinc-600 leading-relaxed">
-                Traditional forecasting models fail because farmers do not sow according to last year's calendar—they sow when the soil moisture profile is right. SeedPulse fuses weather forecasts, commodity prices, and acreage intentions.
+                Traditional forecasting models fail because farmers do not sow according to last year's calendar—they sow when the soil moisture profile is right. Seed Innovation AI fuses weather forecasts, commodity prices, and acreage intentions.
               </p>
 
               {/* Scenario Switcher Buttons */}
@@ -766,7 +766,7 @@ export const PlatformView: React.FC<PlatformViewProps> = ({
               Ask Any Question About Your Seed Supply Chain
             </h2>
             <p className="text-zinc-400 text-sm">
-              Try a live agronomic reasoning prompt below to see how SeedPulse synthesizes biological laws, inventory balances, and ERP orders.
+              Try a live agronomic reasoning prompt below to see how Seed Innovation AI synthesizes biological laws, inventory balances, and ERP orders.
             </p>
           </div>
 
@@ -845,7 +845,7 @@ export const PlatformView: React.FC<PlatformViewProps> = ({
               RAPID DEPLOYMENT
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-[#00120a] font-['Plus_Jakarta_Sans']">
-              How SeedPulse AI Deploys in 14 Days
+              How Seed Innovation AI Deploys in 14 Days
             </h2>
             <p className="text-zinc-600 text-sm mt-1">
               No complex multi-year consulting engagements. Our pre-built ERP connectors and biological models activate in two weeks.
@@ -902,7 +902,7 @@ export const PlatformView: React.FC<PlatformViewProps> = ({
             </div>
 
             <blockquote className="text-base sm:text-lg text-zinc-800 italic leading-relaxed">
-              "SeedPulse AI cut our carryover seed write-downs by 42% in our very first Kharif season. The multi-echelon inventory intelligence alone paid for the enterprise deployment four times over within six months."
+              "Seed Innovation AI cut our carryover seed write-downs by 42% in our very first Kharif season. The multi-echelon inventory intelligence alone paid for the enterprise deployment four times over within six months."
             </blockquote>
 
             <div className="flex items-center gap-4 pt-4 border-t border-zinc-100">
@@ -937,7 +937,7 @@ export const PlatformView: React.FC<PlatformViewProps> = ({
                 Transform Your Seed Enterprise Supply Chain Today
               </h2>
               <p className="text-zinc-300 text-xs sm:text-sm leading-relaxed">
-                Join market leaders in hybrid corn, paddy, vegetables, and cotton operating on SeedPulse AI. Book a confidential 30-minute tailored briefing.
+                Join market leaders in hybrid corn, paddy, vegetables, and cotton operating on Seed Innovation AI. Book a confidential 30-minute tailored briefing.
               </p>
             </div>
 

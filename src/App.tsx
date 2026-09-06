@@ -13,7 +13,8 @@ import { SignInModal } from './components/SignInModal';
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<ScreenType>('platform');
   const [signInModalOpen, setSignInModalOpen] = useState(false);
-  const [userEmail, setUserEmail] = useState<string | null>(null);
+  const [userEmail, setUserEmail] = useState<string | null>('pkhade297@gmail.com');
+  const [isAdmin, setIsAdmin] = useState<boolean>(true);
   const [notification, setNotification] = useState<string | null>(null);
 
   // Scroll to top upon navigating to a different screen
@@ -25,10 +26,22 @@ export default function App() {
     setCurrentScreen(screen);
   };
 
-  const handleLoginSuccess = (email: string) => {
+  const handleLoginSuccess = (email: string, adminStatus: boolean) => {
     setUserEmail(email);
-    setNotification(`Authenticated as ${email}`);
-    setTimeout(() => setNotification(null), 4000);
+    setIsAdmin(adminStatus);
+    setNotification(
+      adminStatus 
+        ? `Administrator session active: ${email} (pwk@123456)` 
+        : `Authenticated as ${email}`
+    );
+    setTimeout(() => setNotification(null), 5000);
+  };
+
+  const handleSignOut = () => {
+    setUserEmail(null);
+    setIsAdmin(false);
+    setNotification('Signed out of session');
+    setTimeout(() => setNotification(null), 3000);
   };
 
   return (
@@ -47,6 +60,9 @@ export default function App() {
         onNavigate={handleNavigate}
         onOpenSignIn={() => setSignInModalOpen(true)}
         onOpenDemo={() => setCurrentScreen('demo')}
+        userEmail={userEmail}
+        isAdmin={isAdmin}
+        onSignOut={handleSignOut}
       />
 
       {/* Screen Views */}
@@ -92,7 +108,7 @@ export default function App() {
       {/* Global Enterprise Footer */}
       <Footer onNavigate={handleNavigate} />
 
-      {/* Sign In SSO Modal */}
+      {/* Sign In SSO / Admin Modal */}
       <SignInModal
         isOpen={signInModalOpen}
         onClose={() => setSignInModalOpen(false)}

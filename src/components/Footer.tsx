@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScreenType } from '../types';
 import { LOGO_URL } from '../data/mockData';
-import { Shield, Sparkles, CheckCircle2, Globe, Lock, Cpu, ArrowUpRight } from 'lucide-react';
+import { Shield, Sparkles, CheckCircle2, Globe, Lock, Cpu, ArrowUpRight, Mail } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (screen: ScreenType) => void;
@@ -21,7 +21,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               Ready to eliminate seed write-downs and stockouts?
             </h3>
             <p className="text-zinc-400 text-sm mt-2">
-              Join leading seed companies optimizing over 14.8M acre-years with SeedPulse Neural Core. Schedule an executive walkthrough with our agronomic AI engineers.
+              Join leading seed companies optimizing over 14.8M acre-years with Seed Innovation Neural Core. Schedule an executive walkthrough with our agronomic AI engineers.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
@@ -49,10 +49,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-[#002113] border border-[#006c49] p-1 flex items-center justify-center">
-                <img src={LOGO_URL} alt="SeedPulse" className="w-full h-full object-contain" />
+                <img src={LOGO_URL} alt="Seed Innovation AI" className="w-full h-full object-contain" />
               </div>
               <span className="font-['Plus_Jakarta_Sans'] font-black text-xl text-white tracking-tight">
-                SeedPulse<span className="text-[#6cf8bb]">AI</span>
+                Seed Innovation <span className="text-[#6cf8bb]">AI</span>
               </span>
             </div>
             <p className="text-xs text-zinc-400 leading-relaxed max-w-sm">
@@ -68,6 +68,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <span className="flex items-center gap-1.5 text-emerald-400">
                 <Shield className="w-3.5 h-3.5" /> ISO 27001
               </span>
+            </div>
+            <div className="pt-2 text-xs text-zinc-400 flex items-center gap-2 font-mono">
+              <Mail className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
+              <span>Corporate: <a href="mailto:pkhade297@gmail.com" className="text-emerald-400 hover:text-emerald-300 underline">pkhade297@gmail.com</a></span>
             </div>
           </div>
 
@@ -183,7 +187,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         {/* Bottom Sub-Strip */}
         <div className="mt-12 pt-6 border-t border-zinc-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400 gap-4">
           <div className="flex items-center gap-4">
-            <span>© {new Date().getFullYear()} SeedPulse AI Inc. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} Seed Innovation AI Inc. All rights reserved.</span>
             <span>•</span>
             <span className="text-emerald-400 font-mono">Status: All Systems Operational (99.99%)</span>
           </div>

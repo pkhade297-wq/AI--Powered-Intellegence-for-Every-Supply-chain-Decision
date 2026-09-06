@@ -26,7 +26,7 @@ interface DemoViewProps {
 export const DemoView: React.FC<DemoViewProps> = ({ onNavigate }) => {
   const [formData, setFormData] = useState({
     fullName: '',
-    email: '',
+    email: 'pkhade297@gmail.com',
     jobTitle: '',
     company: '',
     volume: '25,000 - 100,000 MT',
@@ -81,7 +81,7 @@ export const DemoView: React.FC<DemoViewProps> = ({ onNavigate }) => {
             Experience the Future of Seed Supply Chain Intelligence
           </h1>
           <p className="text-base sm:text-lg text-zinc-600 leading-relaxed font-normal">
-            Schedule a tailored 30-minute demonstration with our senior agronomic supply chain architects. See how SeedPulse AI eliminates biological write-downs and accelerates fulfillment across your enterprise.
+            Schedule a tailored 30-minute demonstration with our senior agronomic supply chain architects. See how Seed Innovation AI eliminates biological write-downs and accelerates fulfillment across your enterprise.
           </p>
         </div>
 
@@ -185,7 +185,7 @@ export const DemoView: React.FC<DemoViewProps> = ({ onNavigate }) => {
             {/* Elena Vance Testimonial Card */}
             <div className="bg-white rounded-2xl p-6 border border-zinc-200 shadow-sm space-y-4">
               <p className="text-xs text-zinc-700 italic leading-relaxed">
-                "SeedPulse AI cut our carryover seed write-downs by 42% in our very first Kharif season. The multi-echelon inventory intelligence alone paid for the enterprise deployment four times over within six months."
+                "Seed Innovation AI cut our carryover seed write-downs by 42% in our very first Kharif season. The multi-echelon inventory intelligence alone paid for the enterprise deployment four times over within six months."
               </p>
 
               <div className="flex items-center gap-3 pt-2 border-t border-zinc-100">
@@ -321,7 +321,7 @@ export const DemoView: React.FC<DemoViewProps> = ({ onNavigate }) => {
                             required
                             value={formData.email}
                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                            placeholder="rajesh@seedcorp.com"
+                            placeholder="pkhade297@gmail.com"
                             className="w-full px-3.5 py-2.5 bg-zinc-50 border border-zinc-300 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-[#006c49] focus:bg-white text-zinc-900 transition-all"
                           />
                         </div>

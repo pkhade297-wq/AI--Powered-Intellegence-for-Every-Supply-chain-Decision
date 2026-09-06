@@ -60,7 +60,7 @@ export const JsonModal: React.FC<JsonModalProps> = ({
         {/* Footer */}
         <div className="px-6 py-3 border-t border-[#0a291e] bg-[#00120a] flex items-center justify-between text-xs text-zinc-400 font-mono">
           <span>Cryptographic Signature: SHA256-verified</span>
-          <span className="text-emerald-400">Deterministic Model: SeedPulse-GenBio-v4</span>
+          <span className="text-emerald-400">Deterministic Model: SeedInnovation-GenBio-v4</span>
         </div>
       </div>
     </div>

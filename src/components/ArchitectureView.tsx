@@ -95,14 +95,14 @@ export const ArchitectureView: React.FC<ArchitectureViewProps> = ({ onNavigate, 
         </div>
       </div>
 
-      {/* Interactive Topology Diagram: SeedPulse Neural Core v4.2 */}
+      {/* Interactive Topology Diagram: Seed Innovation Neural Core v4.2 */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center max-w-2xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-[#005236] text-xs font-mono font-semibold mb-2">
             TOPOLOGY SCHEMATIC
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-[#00120a] font-['Plus_Jakarta_Sans']">
-            SeedPulse Neural Core v4.2 Topology
+            Seed Innovation Neural Core v4.2 Topology
           </h2>
           <p className="text-zinc-600 text-sm mt-1">
             Data flows from diverse physical edge sensors through the mathematical optimization core into automated ERP execution.
@@ -166,7 +166,7 @@ export const ArchitectureView: React.FC<ArchitectureViewProps> = ({ onNavigate, 
                       <Cpu className="w-3.5 h-3.5 text-[#6cf8bb]" />
                     </div>
                     <span className="text-sm font-bold font-mono text-white">
-                      SeedPulse Neural Core
+                      Seed Innovation Neural Core
                     </span>
                   </div>
                   <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-[#6cf8bb]/20 text-[#6cf8bb] font-bold">
@@ -362,7 +362,7 @@ export const ArchitectureView: React.FC<ArchitectureViewProps> = ({ onNavigate, 
               Real-Time Data Fabric & Pre-Built ERP Connectors
             </h2>
             <p className="text-zinc-400 text-sm">
-              Deploy without rewriting your existing technology investments. SeedPulse connects natively to SAP, Oracle, Microsoft, and specialized SeedLIMS platforms.
+              Deploy without rewriting your existing technology investments. Seed Innovation AI connects natively to SAP, Oracle, Microsoft, and specialized SeedLIMS platforms.
             </p>
           </div>
 
@@ -429,7 +429,7 @@ export const ArchitectureView: React.FC<ArchitectureViewProps> = ({ onNavigate, 
               tier: 'TIER 3',
               title: 'Neural Intelligence & Solver Layer',
               sub: 'Bayesian Demand Forecaster • Non-Linear Biological Viability Engine • MILP Optimizer',
-              tech: 'SeedPulse BioReason Models, PyTorch, High-Performance C++ Simplex Solvers'
+              tech: 'Seed Innovation BioReason Models, PyTorch, High-Performance C++ Simplex Solvers'
             },
             {
               tier: 'TIER 4',

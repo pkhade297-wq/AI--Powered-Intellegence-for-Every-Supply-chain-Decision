@@ -4,7 +4,8 @@ export const LOGO_URL = 'https://lh3.googleusercontent.com/aida/AEtjO1UIHSswRXoh
 
 export const ELENA_VANCE_AVATAR = 'https://lh3.googleusercontent.com/aida-public/AB6AXuD0Np1WW54Utmjo_ThxY-9dqqHCLmiC4lYjC13PEtH1fVsH_qcGWcZpb_wgwlNW_abYsppw-KQqTDB8bzYeq6hWsARDLyTzPZQ1HkTSoqKQtLIwSlewYzBPD8FvtperRtTadmdo99w4bVOMjMeOPsUTna_wSQaiqDGzUiC3E3jWXXo6DHVc4RUMQBGwxnddndcdZTRbPBs4Qtydz9UPdPt4ZkpHtZ-SCHJJ6TGWNuiY-3cuGxfzUaor';
 
-export const USER_AVATAR = 'https://lh3.googleusercontent.com/aida-public/AB6AXuD0AMb91fC4MY2x0O9Qfb97LVXhY0ZGKehEl8U4ZNEmTZZzRjH1sTLMo7EJj78t-gZLKeHqJqkKISif3ZJpiZ6-suXYKPqAqNMR73Qc-iT0ced1GiI9Z-7bekk7EziCNjS91DGrnkZuVOXqw2MRRT0gu4xCxvAIEn70_DvFt4oMe2ry3NmgsbCZD9Nr-qH2gYjGjTfjZO670V2Zs8wtYaGOEz3II0fEiy2B7yIpsdpnC9U9XAV8ALnS';
+export const USER_AVATAR = '/farmer_photo.jpg';
+export const FARMER_AVATAR = '/farmer_photo.jpg';
 
 export const CASE_STUDY_IMAGES = {
   corn: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCs480EgxuRrDJP1L2a-ATi9bNRTymw_vLkzfmwHqE0dFSgcAdx3b2tee4HUKZo7tmt-DDeWaqY4Tekq4SZoHcADmUJb1wpOrd4PIs8YKiFKtzbe5Ksn3t6cbeZ726HcXUA8K8pl2GYJK2LVDwyL3FsIoGFSlbXp4pzXXkRFoGdDs8HHOphTVe4l3aDUDuJtbKIEBIUsbojuA9chlh099JEENM1QL2b-chFxAIbYgnK2C-qJ-A7j-jK',
